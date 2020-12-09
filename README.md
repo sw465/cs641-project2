@@ -1,6 +1,7 @@
 
 # Cloud Computing Project 2
 
+# ******************************************************************************************************************************
 # Model training of 4 EC2 instances using AWS EMR
 
 1. Login to AWS Console
@@ -34,7 +35,7 @@
 
 
 
-
+# ******************************************************************************************************************************
 # Getting prediction from saved model on EC2
 
 
@@ -59,7 +60,7 @@
 
 ## Terminate instances from AWS console when finished 
 
-
+# ******************************************************************************************************************************
 # Runner docker on EC2
 
 ## Login to EC2 instance with:
