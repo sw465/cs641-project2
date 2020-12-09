@@ -3,16 +3,16 @@
 
 # Model training of 4 EC2 instances using AWS EMR
 
-## Login to AWS Console
-## Search for EMR
-## Click "Create Cluster" button
-## Click "Go to advanced options"
-## Select "emr-6.2.0" release
-## Check off "Spark 3.0.1" and "Hadoop 3.2.1" and click next
-## Use 3 instances for Core - 2
-## Type a name for the EMR cluster (e.g. modelTraining) and click next
-## Choose an EC2 key pair
-## Click "Create Cluster" button
+1. Login to AWS Console
+2. Search for EMR
+3. Click "Create Cluster" button
+4. Click "Go to advanced options"
+5. Select "emr-6.2.0" release
+6. Check off "Spark 3.0.1" and "Hadoop 3.2.1" and click next
+7. Use 3 instances for Core - 2
+8. Type a name for the EMR cluster (e.g. modelTraining) and click next
+9. Choose an EC2 key pair
+10. Click "Create Cluster" button
 
 
 ## Open a terminal and connect to EMR EC2 master instance (Can be found under EMR cluster, summary, Master public DNS)
